@@ -1,0 +1,58 @@
+import React from 'react'
+import styled from 'styled-components'
+import MenuIcon from '@mui/icons-material/Menu';
+
+ 
+function Header() {
+    return (
+        <Container>
+            <a href="#">
+                <img src="/images/logo.svg"/>
+            </a>
+            <MenuGroup>
+                <div>Model S</div>
+                <div>Model X</div>
+                <div>Model Y</div>
+            </MenuGroup>
+            <RightMenu>
+                <a href="#">Shop</a>
+                <a href="#">Account</a>
+                <MenuIconContainer>
+                    <MenuIcon></MenuIcon>
+                </MenuIconContainer>
+            </RightMenu>
+        </Container>
+    )
+}
+ 
+export default Header
+
+const Container = styled.div`
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+`
+ 
+const MenuGroup = styled.div`
+    display: flex;
+    div {
+        font-weight: 600;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+`
+
+const RightMenu = styled.div`
+    display: flex;
+    align-items: center;
+    a {
+        font-weight: 600;
+        padding-right: 10px;
+    }
+`
+
+const MenuIconContainer = styled.div`
+
+`
