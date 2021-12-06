@@ -54,5 +54,7 @@ const RightMenu = styled.div`
 `
 
 const MenuIconContainer = styled.div`
-
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 `
