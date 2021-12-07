@@ -1,44 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Tesla Clone
+> Clone of Tesla website built using ReactJS.
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-## Available Scripts
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
-In the project directory, you can run:
 
-### `yarn start`
+## General Information
+- while learning ReactJS, I built this web app which is a clone of the actual Tesla website. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies Used
+- React
+- Redux
+- Styled Components
+- Material UI Icons
+- React Reveal
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+<img src="https://github.com/iPankajKr/Tesla-Clone/blob/master/screenshots/screenshot-1.png?raw=true" alt="Desktop" height="300px"> <img src="https://github.com/iPankajKr/Tesla-Clone/blob/master/screenshots/screenshot-2.png?raw=true" alt="Phone" height="300px">
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
+- Clone this repository to your local machine
+- Run `npm install`
+- Run `npm start` to launch the web app
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Status
+Project is: _in progress_
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Room for Improvement
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Room for improvement:
+- Transition effect between sections
+- Update header as per the latest website design
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To do:
+- Add transition between the sections on homepage
+- Replace hamburger icon with the text 'Menu'
+- Add Hover effect as seen on recent Tesla website update
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Acknowledgements
+- This project was based on [Tesla Clone with ReactJS ](https://www.youtube.com/watch?v=lUeS9Wsj6dk) by [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ).
+- Many thanks to [Nazariy Dumanskyy](https://www.linkedin.com/in/nazariydumanskyy/) for making the tutorial quite fun and entertaining.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+Created by [@iPankajKr](https://github.com/iPankajKr) - feel free to contact me!
+
